@@ -5,6 +5,11 @@ import Image3 from '../../assets/image3.jpg'
 import Image4 from '../../assets/image4.jpg'
 import acieve from '../../assets/achiev.jpg'
 import product from '../../assets/product.jpg'
+import work1 from '../../assets/work1.jpg'
+import work2 from '../../assets/work2.jpg'
+import work3 from '../../assets/work3.jpg'
+import work4 from '../../assets/work4.jpg'
+import work5 from '../../assets/work5.jpg'
 import { FaArrowUp } from 'react-icons/fa6'
 
 function Home() {
@@ -84,6 +89,30 @@ function Home() {
                 <p className='px-10'>. Our Work</p>               
                 <h1 className='text-7xl font-bold px-10'>Take a look at <br /> our Projects</h1>
                 <img src={acieve} alt="" className='w-2xl h-100 rounded-2xl' />
+            </div>
+        </div>
+        <div className='w-full flex justify-between items-center'>
+            <div className='relative'>
+                <img src={work1} alt="" className='w-50 h-50 absolute top-40 -right-20 rounded-2xl' />
+                <img src={work2} alt="" className='w-50 h-50 rounded-2xl' />
+            </div>
+            <div className='py-50'>
+                <p className='font-semibold'>. Dont't believe the hype ?</p>
+                <h1 className='text-7xl font-bold'>See What AI has</h1>
+                <h1 className='text-7xl font-bold'>to Say about us</h1><br />
+                <div className='flex justify-around gap-5 text-black'>
+                    <button className='text-xl px-5 py-1 bg-amber-300 rounded-2xl text-center'>Open Ai</button>
+                    <button className='text-xl px-8 py-1 bg-amber-300 rounded-2xl text-center'>Cloud</button>
+                    <button className='text-xl px-8 py-1 bg-amber-300 rounded-2xl text-center'>Google</button>
+                    <button className='text-xl px-8 py-1 bg-amber-300 rounded-2xl text-center'>Grok</button>
+                </div>
+            </div>
+            <div className='relative'>
+                <div className=''>
+                <img src={work3} alt="" className='w-50 h-50 absolute right-45 -top-20 rounded-2xl' />
+                <img src={work4} alt="" className='w-50 h-50 absolute top-50 right-10 rounded-2xl' />
+                <img src={work5} alt="" className='w-50 h-50 rounded-2xl' />
+                </div>
             </div>
         </div>
 
